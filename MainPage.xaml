@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+
+    <StackLayout BackgroundColor="Lavender">
+        
+        <!-- Place new controls here -->
+        <StackLayout Margin="20,35,20,20">
+            <Image Source="https://www.humsub.com.pk/wp-content/uploads/2018/03/humsub-banner-w2-x2-1150x180-text-website.jpg"
+               HeightRequest="50" />
+        </StackLayout>
+        <Label Text="Welcome to HubSub!" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+        
+        <StackLayout Margin="20,15,20,5">
+            <Entry Placeholder="Username/ Email" />
+        </StackLayout>
+        
+        <StackLayout Margin="20,30,20,10">
+            <Entry Placeholder="Password" />
+        </StackLayout>
+        
+        <Button Text="Login"
+                TextColor="White"
+                BackgroundColor="Navy"
+                BorderColor="Black"/>
+        
+        <Button Text="Login as guest"
+                TextColor="White"
+                BackgroundColor="Navy"
+                BorderColor="Black"/>
+        
+
+    </StackLayout>
+
+</ContentPage>
