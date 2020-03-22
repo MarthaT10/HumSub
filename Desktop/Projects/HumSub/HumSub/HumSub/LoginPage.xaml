@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HumSub.LoginPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Lavender"> <!-- Set the Application Background Lavender -->
+            <StackLayout Margin="20,35,20,20">
+                <Image Source="https://www.humsub.com.pk/wp-content/uploads/2018/03/humsub-banner-w2-x2-1150x180-text-website.jpg"
+                   HeightRequest="50" /> <!-- Grabs source image from website -->
+            </StackLayout>
+
+            <StackLayout Margin="20,15,20,5">
+                <Entry Placeholder="Username/ Email" 
+                 TextColor="Black"
+                BackgroundColor="White"/>
+            </StackLayout> <!-- Creates the entry box for Username -->
+
+            <StackLayout Margin="20,15,20,10">
+                <Entry Placeholder="Password"
+                   IsPassword="True"
+                   TextColor="Black"
+                   BackgroundColor="White"/>
+            </StackLayout> <!-- Creates the entry box for PassWord  -->
+            
+            <Label Text="&#10;&#10;" /> <!-- Adds Space -->
+
+            <Button Text="Sign-in!"
+                TextColor="White"
+                BackgroundColor="DodgerBlue"
+                BorderColor="Black"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="Button_Clicked"
+                    />  <!-- Creates the button for signing in -->
+            <Button Text="Forgot Password"
+                TextColor="White"
+                BackgroundColor="DodgerBlue"
+                BorderColor="Black"
+                HorizontalOptions="CenterAndExpand"
+                    /> <!-- Creates the button for forgot password-->
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HumSub.NewMainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="HumSub"/> <!-- Adds the title HumSub on the toolbar -->
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Lavender">   <!-- Set the Application Background Lavender -->
+            <StackLayout >
+                <Image Source="https://www.humsub.com.pk/wp-content/uploads/2018/03/humsub-banner-w2-x2-1150x180-text-website.jpg"
+               HeightRequest="50" /> <!-- Grabs source image from website -->
+            </StackLayout>
+
+            <StackLayout>   
+                <Picker x:Name="MainPicker"
+                        Title="Filter by Categories"
+                        TextColor="White"
+                        BackgroundColor="DodgerBlue"
+                        HorizontalOptions="FillAndExpand"/> <!-- Create the Picker for the categories-->
+            </StackLayout> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\bin\Debug\netstandard2.0\HumSub.deps.json
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\bin\Debug\netstandard2.0\HumSub.dll
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\bin\Debug\netstandard2.0\ref\HumSub.dll
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\bin\Debug\netstandard2.0\HumSub.pdb
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\HumSub.csprojAssemblyReference.cache
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\NewMainPage.xaml.g.cs
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\HumSub.AssemblyInfoInputs.cache
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\HumSub.AssemblyInfo.cs
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\HumSub.dll
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\ref\HumSub.dll
+C:\Users\Martha\Desktop\Projects\HumSub\HumSub\HumSub\obj\Debug\netstandard2.0\HumSub.pdb
